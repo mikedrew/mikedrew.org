@@ -8,10 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Run a one-line script
+    - uses: actions/checkout@v2, srt32/hugo-action@v0.0.3
+    - name: Checkout
       run: echo Hello, world!
-    - name: Run a multi-line script
+    - name: Builds site
+      run: echo Hello, world!
+    - name: Deploys site
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
