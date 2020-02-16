@@ -1,0 +1,54 @@
+baseurl = "https://example.com/"
+title = "Mike Drew"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+staticDir = ["static"]
+
+[params]
+    author = "Mike Drew"
+    avatar = "avatarSloth.png"
+    favicon = "favicon.ico"
+    description = """        
+    """
+    publicationYear = "2020"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    taxonomy = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/mikedrew"
+    weight = 20
+
+[[menu.main]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/mikedrew123"
+    weight = 25
+
+[[menu.main]]
+    identifier = "spotify"
+    name = "Spotify"
+    pre = "<i class='fab fa-spotify fa-lg'></i>"
+    url = "https://open.spotify.com/user/mikedrew0110?si=uvFUMN4aQRONR6SNZzw59w"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:mike@mikedrew.org"
+    weight = 40
