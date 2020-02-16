@@ -32,4 +32,4 @@ jobs:
         with:
           # Specify the script here
           inlineScript: 
-            cdn endpoint purge --resource-group mikedrew.org --profile-name mikedrewdotorgcdn --name mikedrewdotorgcdn --content-paths /*  
+            az cdn endpoint purge --resource-group mikedrew.org --profile-name mikedrewdotorgcdn --name mikedrewdotorgcdn --content-paths /*  
