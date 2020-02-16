@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2, srt32/hugo-action@v0.0.3
+    - uses: actions/checkout@v2
     - name: Checkout
       run: echo Hello, world!
     - name: Builds site
