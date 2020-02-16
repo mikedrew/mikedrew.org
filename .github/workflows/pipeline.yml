@@ -3,6 +3,10 @@ on:
     branches:
       - master
 
+env:
+  AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT_MIKEDREWDOTORG }}
+  AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY_MIKEDREWDOTORG }}
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
