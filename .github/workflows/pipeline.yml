@@ -26,3 +26,10 @@ jobs:
         
       - name: Deploy
         run: hugo deploy
+      
+      - name: Azure CLI Action
+        uses: Azure/cli@v1.0.0
+        with:
+          # Specify the script here
+          inlineScript: 
+            cdn endpoint purge --resource-group mikedrew.org --profile-name mikedrewdotorgcdn --name mikedrewdotorgcdn --content-paths /*  
