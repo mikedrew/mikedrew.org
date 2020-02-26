@@ -19,6 +19,7 @@ staticDir = ["static"]
     # singlePageDateFormat = "January 2, 2006"
     # custom_css = ["/css/custom.css"]
     # custom_js = ["/js/custom.js"]
+    appInsights = "a73d2232-1c3a-484e-8274-6aa03e0d6876"
 
 # Make sure setting a following option for search bar to work
 [outputs]
@@ -52,6 +53,15 @@ staticDir = ["static"]
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "mailto:mike@mikedrew.org"
     weight = 40
+
+[[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    pre = "<i class='fa fa-file-alt fa-lg'></i>"
+    url = "MikeDrewResume.pdf"
+    weight = 50
+
+
 
 [deploymnet]
 # By default, files are uploaded in an arbitrary order.
