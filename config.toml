@@ -61,6 +61,12 @@ staticDir = ["static"]
     url = "MikeDrewResume.pdf"
     weight = 50
 
+[[menu.main]]
+    identifier = "the90s"
+    name = "The 90s Experience"
+    pre = "<i class='fa fa-file-alt fa-lg'></i>"
+    url = "90s/index.html"
+    weight = 60
 
 
 [deploymnet]
