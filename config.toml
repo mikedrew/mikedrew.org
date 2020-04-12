@@ -6,6 +6,7 @@ hasCJKLanguage = true
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
 # googleAnalytics = "{your tracking code}"
+#
 staticDir = ["static"]
 
 [params]
