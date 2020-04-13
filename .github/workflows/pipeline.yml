@@ -25,4 +25,4 @@ jobs:
         run: hugo --minify 
         
       - name: Deploy
-        run: hugo deploy --maxDeletes -1
+        run: hugo deploy
