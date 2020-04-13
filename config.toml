@@ -59,7 +59,7 @@ staticDir = ["static"]
     identifier = "resume"
     name = "Resume"
     pre = "<i class='fa fa-file-alt fa-lg'></i>"
-    url = "MikeDrewResume.pdf"
+    url = "files/MikeDrewResume.pdf"
     weight = 50
 
 [[menu.main]]
